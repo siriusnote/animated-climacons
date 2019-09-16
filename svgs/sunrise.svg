@@ -38,6 +38,8 @@
             animation-duration: 12s;
             animation-direction: normal;
 
+            transform-box: fill-box;
+
         }
 
         .climacon_component-stroke_arrow-up {

@@ -42,6 +42,8 @@
             -o-animation-duration: 12s;
             animation-duration: 12s;
 
+            transform-box: fill-box;
+
         }
 
         .climacon_componentWrap-snowflake{

@@ -41,6 +41,8 @@
             -o-animation-direction: normal;
             animation-direction: normal;
 
+            transform-box: fill-box;
+
         }
 
        .climacon_component-stroke_thermoLine{

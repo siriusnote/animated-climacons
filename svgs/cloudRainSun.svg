@@ -40,6 +40,7 @@
             -moz-animation-direction: normal;
             -o-animation-direction: normal;
             animation-direction: normal;
+            transform-box: fill-box;
 
         }
 
