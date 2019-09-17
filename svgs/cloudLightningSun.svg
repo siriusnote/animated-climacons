@@ -38,6 +38,7 @@
             animation-direction: normal;
             transform-box: fill-box;
         }
+
       .climacon_componentWrap-sun_cloud {
 
           -webkit-animation-name: behindCloudMove, rotate;
@@ -67,7 +68,13 @@
 
       }
 
+      .climacon_component-stroke_sunBody {
+            fill: #febc2f;
+      }
+
       .climacon_component-stroke_sunSpoke {
+          fill: #febc2f;
+
           fill-opacity: 0;
           -webkit-animation-name: fillOpacity, scale;
           -moz-animation-name: fillOpacity, scale;
@@ -270,8 +277,14 @@
               stroke-opacity: 1;
             }
           }
+          .climacon_componentWrap-cloud {
+          fill: #fff;
+        }
+          
         /* LIGHTNING */
         .climacon_component-stroke_lightning {
+            fill: #ffc52e;
+
             fill-opacity: 0;
             -webkit-animation-name: fillOpacityLightning;
             -moz-animation-name: fillOpacityLightning;

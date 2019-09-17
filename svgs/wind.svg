@@ -139,6 +139,11 @@
             transform: translateX(0);
           }
         }
+
+        .climacon_componentWrap-wind{
+          fill: #ffffff;
+        }
+        
     ]]></style>
     <g class="climacon_iconWrap climacon_iconWrap-wind">
         <g class="climacon_wrapperComponent climacon_componentWrap-wind">

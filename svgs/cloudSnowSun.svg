@@ -41,6 +41,8 @@
         }
 
         .climacon_component-stroke_snow {
+            fill: #93bffe;
+
             fill-opacity: 0;
 
             -webkit-animation-name: snowFall, fillOpacity2;
@@ -3429,7 +3431,13 @@
               animation-duration:3s,12s
         }
 
+        .climacon_component-stroke_sunBody {
+              fill: #ffc52e;
+        }
+
         .climacon_component-stroke_sunSpoke {
+              fill: #ffc52e;
+
               fill-opacity:0;
               -webkit-animation-name:fillOpacity,scale;
               -moz-animation-name:fillOpacity,scale;

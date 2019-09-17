@@ -41,8 +41,12 @@
 
         }
 
+        .climacon_wrapperComponent-horizonLine {
+            fill: #ffffff;
+        }
+
         .climacon_component-stroke_arrow-down {
-            
+            fill: #ffffff;
             fill-opacity: 0;
 
             -webkit-animation-name: fillOpacity2, translateArrowDown;
@@ -57,7 +61,12 @@
 
         }
 
+        .climacon_component-stroke_sunBody {
+            fill: #ffc52e;
+        }
+
         .climacon_component-stroke_sunSpoke {
+            fill: #ffc52e;
             -webkit-animation-name: scale;
             -moz-animation-name: scale;
             -o-animation-name: scale;

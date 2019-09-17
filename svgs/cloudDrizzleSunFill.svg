@@ -47,6 +47,8 @@
         }
 
         .climacon_component-stroke_drizzle {
+            fill: #93bffe;
+
             fill-opacity: 0;
 
             -webkit-animation-name: drizzleFall, fillOpacity2;
@@ -116,7 +118,18 @@
 
         }
 
+
+        .climacon_wrapperComponent_cloud {
+            fill: #dfdede;
+        }
+
+        .climacon_component-stroke_sunBody {
+            fill: #febc2f;
+        }
+
         .climacon_component-stroke_sunSpoke {
+            fill: #febc2f;
+
             fill-opacity: 0;
             -webkit-animation-name: fillOpacity, scale;
             -moz-animation-name: fillOpacity, scale;
@@ -475,7 +488,7 @@
                 />
             </g>
         </g>
-        <g class="climacon_wrapperComponent climacon_wrapperComponent-cloud">
+        <g class="climacon_wrapperComponent climacon_wrapperComponent_cloud">
             <path
             class="climacon_component climacon_component-stroke climacon_component-stroke_cloud"
             d="M44.033,65.641c-8.836,0-15.999-7.162-15.999-15.998c0-8.835,7.163-15.998,15.999-15.998c6.006,0,11.233,3.312,13.969,8.203c0.664-0.113,1.338-0.205,2.033-0.205c6.627,0,11.998,5.373,11.998,12c0,6.625-5.371,11.998-11.998,11.998C57.26,65.641,47.23,65.641,44.033,65.641z"/>

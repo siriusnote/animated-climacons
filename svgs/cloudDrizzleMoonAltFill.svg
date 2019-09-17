@@ -46,7 +46,13 @@
 
         }
 
+        .climacon_componentWrap_cloud {
+            fill: #dfdede;
+        }
+
         .climacon_component-stroke_drizzle {
+            fill: #93bffe;
+
             fill-opacity: 0;
 
             -webkit-animation-name: drizzleFall, fillOpacity2;
@@ -89,6 +95,8 @@
 
 
        .climacon_componentWrap-moon_cloud {
+            fill: #febc2f;
+            
             -webkit-animation-name: behindCloudMove, wobble;
             -moz-animation-name: behindCloudMove, wobble;
             -o-animation-name: behindCloudMove, wobble;

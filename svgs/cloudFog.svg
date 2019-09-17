@@ -40,8 +40,14 @@
             transform-box: fill-box;
         }
 
+        .climacon_component-stroke_cloud {
+          fill: #ffffff;
+        }
+
         /* FOG */
         .climacon_component-stroke_fogLine {
+
+            fill:#ffffff;
             
             fill-opacity: 0.5;
           

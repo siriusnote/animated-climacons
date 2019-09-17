@@ -40,6 +40,8 @@
     }
 
       .climacon_component-snowAlt {
+        fill: #93bffe;
+
         fill-opacity: 0;
 
         -webkit-animation-name: snowFall, fillOpacity2;
@@ -3400,7 +3402,13 @@
         }
     }
 
+        .climacon_componentWrap_cloud {
+            fill: #dfdede;
+        }
+
        .climacon_componentWrap-moon_cloud {
+            fill: #ffc52e;
+
             -webkit-animation-name: behindCloudMove, wobble;
             -moz-animation-name: behindCloudMove, wobble;
             -o-animation-name: behindCloudMove, wobble;

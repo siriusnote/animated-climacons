@@ -47,6 +47,8 @@
         }
 
         .climacon_componentWrap-moon{
+            fill: #ffc52e;
+            
             -webkit-animation-name: wobble;
             -moz-animation-name: wobble;
             -o-animation-name: wobble;

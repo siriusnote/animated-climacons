@@ -40,6 +40,8 @@
         }
 
         .climacon_component-snowAlt {
+            fill: #93bffe;
+            
             fill-opacity: 0;
 
             -webkit-animation-name: snowFall, fillOpacity2;

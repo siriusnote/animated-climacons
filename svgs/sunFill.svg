@@ -21,7 +21,7 @@
         }
 
         .climacon_component-fill{
-            fill: white;
+            fill: #ffbe15;
         }
     
         g, path, circle, rect{
@@ -63,7 +63,12 @@
             animation-name: rotate;
         }
 
-        .climacon_component-stroke_sunSpoke{
+        .climacon_component-stroke_sunBody {
+            fill: #ffc52e;
+        }
+
+        .climacon_component-stroke_sunSpoke {
+            fill: #ffc52e;
             -webkit-animation-name: scale;
             -moz-animation-name: scale;
             -o-animation-name: scale;

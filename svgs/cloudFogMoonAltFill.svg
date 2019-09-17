@@ -39,6 +39,8 @@
             transform-box: fill-box;
         }
        .climacon_componentWrap-moon_cloud {
+            fill: #febc2f;
+
             -webkit-animation-name: behindCloudMove, wobble;
             -moz-animation-name: behindCloudMove, wobble;
             -o-animation-name: behindCloudMove, wobble;
@@ -178,6 +180,8 @@
         }
         /* FOG */
         .climacon_component-stroke_fogLine {
+          fill: #ffffff;
+          
           fill-opacity: 0.5;
           
           -webkit-animation-name: translateFog, fillOpacityFog;

@@ -44,8 +44,14 @@
 
             transform-box: fill-box;
         }
+
+        .climacon_componentWrap_cloud {
+            fill: #dfdede;
+        }
         
         .climacon_component-stroke_drizzle {
+            fill: #93bffe;
+
             fill-opacity: 0;
 
             -webkit-animation-name: drizzleFall, fillOpacity2;

@@ -39,6 +39,10 @@
             transform-box: fill-box;
         }
 
+        .climacon_componentWrap_cloud {
+            fill: #dfdede;
+        }
+
        .climacon_componentWrap-sun_cloud {
 
             -webkit-animation-name: behindCloudMove, rotate;
@@ -68,7 +72,13 @@
 
         }
 
+        .climacon_component-stroke_sunBody {
+            fill: #febc2f;
+        }
+
         .climacon_component-stroke_sunSpoke {
+            fill: #febc2f;
+
             fill-opacity: 0;
             -webkit-animation-name: fillOpacity, scale;
             -moz-animation-name: fillOpacity, scale;
@@ -111,7 +121,7 @@
         }
 
     .climacon_component-stroke_hailAlt {
-        
+        fill: #93bffe;
         fill-opacity: 0;
 
         -webkit-animation-timing-function: ease-in;

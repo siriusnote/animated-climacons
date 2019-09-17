@@ -9,6 +9,11 @@
     viewBox="15 15 70 70"
     enable-background="new 15 15 70 70"
     xml:space="preserve">
+     <style><![CDATA[
+        .climacon_componentWrap_cloud {
+          fill: #dfdede;
+        }
+      ]]></style>
     <g class="climacon_iconWrap climacon_iconWrap-cloud">
         <g class="climacon_componentWrap climacon_componentWrap_cloud">
             <path

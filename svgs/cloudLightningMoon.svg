@@ -39,6 +39,8 @@
             transform-box: fill-box;
         }
        .climacon_componentWrap-moon_cloud {
+            fill: #ffc52e;
+
             -webkit-animation-name: behindCloudMove, wobble;
             -moz-animation-name: behindCloudMove, wobble;
             -o-animation-name: behindCloudMove, wobble;
@@ -176,8 +178,15 @@
                 transform: translateX(0) translateY(0);
             }
         }
+        
+        .climacon_componentWrap-cloud {
+          fill: #fff;
+        }
+
         /* LIGHTNING */
         .climacon_component-stroke_lightning {
+            fill: #ffc52e;
+
             fill-opacity: 0;
             -webkit-animation-name: fillOpacityLightning;
             -moz-animation-name: fillOpacityLightning;

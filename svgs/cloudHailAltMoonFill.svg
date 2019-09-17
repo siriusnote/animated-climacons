@@ -39,7 +39,13 @@
             transform-box: fill-box;
         }
 
+        .climacon_componentWrap_cloud {
+            fill: #dfdede;
+        }
+
        .climacon_componentWrap-moon_cloud {
+            fill: #febc2f;
+
             -webkit-animation-name: behindCloudMove, wobble;
             -moz-animation-name: behindCloudMove, wobble;
             -o-animation-name: behindCloudMove, wobble;
@@ -67,7 +73,8 @@
         }
     /* HAIL ALT */
     .climacon_component-stroke_hailAlt {
-        
+        fill: #93bffe;
+
         fill-opacity: 0;
 
         -webkit-animation-timing-function: ease-in;

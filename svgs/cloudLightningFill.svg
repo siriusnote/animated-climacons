@@ -39,8 +39,14 @@
             transform-box: fill-box;
         }
 
+        .climacon_componentWrap_cloud {
+            fill: #dfdede;
+        }
+
         /* LIGHTNING */
         .climacon_component-stroke_lightning {
+            fill: #ffc52e;
+
             fill-opacity: 0;
             -webkit-animation-name: fillOpacityLightning;
             -moz-animation-name: fillOpacityLightning;

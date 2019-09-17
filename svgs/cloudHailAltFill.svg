@@ -38,8 +38,14 @@
             animation-direction: normal;
             transform-box: fill-box;
         }
+
+        .climacon_componentWrap_cloud {
+            fill: #dfdede;
+        }
+
     /* HAIL ALT */
     .climacon_component-stroke_hailAlt {
+        fill: #93bffe;
         
         fill-opacity: 0;
 

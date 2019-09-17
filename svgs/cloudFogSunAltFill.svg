@@ -67,7 +67,12 @@
 
       }
 
+      .climacon_component-stroke_sunBody {
+            fill: #febc2f;
+        }
+
       .climacon_component-stroke_sunSpoke {
+            fill: #febc2f;
           fill-opacity: 0;
           -webkit-animation-name: fillOpacity, scale;
           -moz-animation-name: fillOpacity, scale;
@@ -273,6 +278,8 @@
 
         /* FOG */
         .climacon_component-stroke_fogLine {
+          fill: #ffffff;
+
           fill-opacity: 0.5;
           
           -webkit-animation-name: translateFog, fillOpacityFog;

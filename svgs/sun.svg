@@ -54,7 +54,12 @@
             animation-name: rotate;
         }
 
+        .climacon_component-stroke_sunBody {
+            fill: #ffc52e;
+        }
+
         .climacon_component-stroke_sunSpoke {
+            fill: #ffc52e;
 
             -webkit-animation-name: scale;
             -moz-animation-name: scale;

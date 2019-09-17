@@ -41,6 +41,8 @@
 
         /* FOG */
         .climacon_component-stroke_fogLine {
+          fill: #ffffff;
+
           fill-opacity: 0.5;
           
           -webkit-animation-name: translateFog, fillOpacityFog;

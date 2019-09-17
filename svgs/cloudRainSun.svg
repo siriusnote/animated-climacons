@@ -44,8 +44,14 @@
 
         }
 
+        .climacon_componentWrap-cloud {
+          fill: #fff;
+        }
+
         /* RAIN */
         .climacon_component-stroke_rain {
+          fill: #93bffe;
+
           fill-opacity: 0;
           -webkit-animation-name: rainFall, fillOpacity2;
           -webkit-animation-timing-function: ease-in;
@@ -109,7 +115,13 @@
 
             }
 
+            .climacon_componentWrap-sunBody {
+              fill: #febc2f;
+            }
+
             .climacon_component-stroke_sunSpoke {
+                fill: #febc2f;
+
                 fill-opacity: 0;
                 -webkit-animation-name: fillOpacity, scale;
                 -moz-animation-name: fillOpacity, scale;

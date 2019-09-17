@@ -113,6 +113,14 @@
           }
         }
 
+        .climacon_componentWrap-sunriseAlt{
+          fill: #ffffff;
+        }
+
+        .climacon_component-stroke_thermoBall, .climacon_component-stroke_thermoLine{
+          fill: #93bffe;
+        }
+
     ]]></style>
     <clipPath id="thermolineClip">
 		<rect 

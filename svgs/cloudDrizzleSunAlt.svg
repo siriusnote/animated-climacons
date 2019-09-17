@@ -68,7 +68,13 @@
 
             }
 
+            .climacon_component-stroke_sunBody {
+                fill: #febc2f;
+            }
+
             .climacon_component-stroke_sunSpoke {
+                fill: #febc2f;
+
                 fill-opacity: 0;
                 -webkit-animation-name: fillOpacity, scale;
                 -moz-animation-name: fillOpacity, scale;
@@ -110,8 +116,14 @@
 
             }
 
+        .climacon_componentWrap_cloud {
+          fill: #fff;
+        }
+
 
         .climacon_component-stroke_drizzle {
+            fill: #93bffe;
+
             fill-opacity: 0;
 
             -webkit-animation-name: drizzleFall, fillOpacity2;
@@ -482,7 +494,7 @@
             class="climacon_component climacon_component-stroke climacon_component-stroke_drizzle climacon_component-stroke_drizzle-right"
             d="M43.033,57.672l-2.121,2.121c-1.172,1.172-1.172,3.07,0,4.242s3.07,1.172,4.244,0c1.172-1.172,1.172-3.07,0-4.242L43.033,57.672z"/>
         </g>
-        <g class="climacon_wrapperComponent climacon_wrapperComponent-cloud" clip-path="url(#cloudFillClip)">
+        <g class="climacon_wrapperComponent climacon_componentWrap_cloud" clip-path="url(#cloudFillClip)">
             <path
             class="climacon_component climacon_component-stroke climacon_component-stroke_cloud"
             d="M63.999,64.944v-4.381c2.387-1.386,3.998-3.961,3.998-6.92c0-4.418-3.58-8-7.998-8c-1.603,0-3.084,0.481-4.334,1.291c-1.232-5.316-5.973-9.29-11.664-9.29c-6.628,0-11.999,5.372-11.999,12c0,3.549,1.55,6.729,3.998,8.926v4.914c-4.776-2.769-7.998-7.922-7.998-13.84c0-8.836,7.162-15.999,15.999-15.999c6.004,0,11.229,3.312,13.965,8.203c0.664-0.113,1.336-0.205,2.033-0.205c6.627,0,11.998,5.373,11.998,12C71.997,58.864,68.655,63.296,63.999,64.944z"/>

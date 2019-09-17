@@ -47,6 +47,8 @@
         }
 
         .climacon_componentWrap-snowflake{
+            fill: #93bffe;
+
             -webkit-animation-name: rotate;
             -moz-animation-name: rotate;
             -o-animation-name: rotate;

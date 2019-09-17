@@ -7,7 +7,9 @@
 	y="0px"
 	viewBox="15 15 70 70" 
 	enable-background="new 15 15 70 70" 
+	fill="#ffbe15"
 	xml:space="preserve">
+
 	<clipPath id="MoonFullMask">
 		<circle 
 			cx="50" 
@@ -30,7 +32,7 @@
 			r="11.999"/>
 		<circle 
             class="climacon_component climacon_component-fill climacon_component-stroke_moon-fill"
-			fill="#FFFFFF" 
+			fill="#ffc52e" 
 			cx="50.001" 
 			cy="50" 
 			r="7.999"/>

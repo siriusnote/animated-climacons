@@ -75,7 +75,17 @@
 
             }
 
+            .climacon_componentWrap-cloud {
+                fill: #ffffff;
+            }
+
+            .climacon_component-stroke_sunBody {
+                fill: #ffc52e;
+            }
+
             .climacon_component-stroke_sunSpoke {
+                fill: #ffc52e;
+
                 fill-opacity: 0;
                 -webkit-animation-name: fillOpacity, scale;
                 -moz-animation-name: fillOpacity, scale;

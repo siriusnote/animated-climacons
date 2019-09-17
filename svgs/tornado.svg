@@ -542,6 +542,10 @@
           }
         }
 
+        .climacon_componentWrap-tornado{
+          fill: #ffffff;
+        }
+
     ]]></style>
     <g class="climacon_iconWrap climacon_iconWrap-tornado">
         <g class="climacon_componentWrap climacon_componentWrap-tornado">

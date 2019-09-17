@@ -46,7 +46,13 @@
 
         }
 
+        .climacon_componentWrap-cloud {
+            fill: #dfdede;
+        }
+
         .climacon_componentWrap-moon_cloud {
+            fill: #ffc52e;
+
             -webkit-animation-name: behindCloudMove, wobble;
             -moz-animation-name: behindCloudMove, wobble;
             -o-animation-name: behindCloudMove, wobble;

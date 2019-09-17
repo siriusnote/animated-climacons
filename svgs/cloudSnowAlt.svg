@@ -39,7 +39,13 @@
             transform-box: fill-box;
         }
 
+        .climacon_componentWrap-cloud {
+            fill: #ffffff;
+        }
+
         .climacon_component-snowAlt {
+            fill: #93bffe;
+
             fill-opacity: 0;
 
             -webkit-animation-name: snowFall, fillOpacity2;
